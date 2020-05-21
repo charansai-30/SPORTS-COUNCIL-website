@@ -1,0 +1,35 @@
+body
+{
+	overflow-x: hidden;
+}
+img
+{
+	vertical-align: middle;
+}
+#sg img
+{
+	width: 100%;
+	max-width: 700px;
+	vertical-align: middle;
+	margin-top: 40px;
+}
+#GS
+{
+	margin-left: 10px;
+}
+.events
+{
+	border-top: solid;
+	border-width: 1px;
+	border-color: #C4C6CA;
+	border-radius: 5px;
+	background-color: #EAEEF6;
+}
+#contact
+{
+	background-color: #f3f0f0;
+	margin-bottom: 0;
+	width: 100%;
+	font-family: Verdana;
+	padding: 10px 0 10px
+}

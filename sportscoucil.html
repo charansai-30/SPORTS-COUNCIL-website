@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	  <link rel="stylesheet" type="text/css" href="sports council.css">
+	<title>Sports Council</title>
+</head>
+<body>
+	<div class="container-fluid text-center" id="top">
+		<div class="row">
+		<div class="col-md-2">
+			<a href="https://www.iitbbs.ac.in/"><img class="img-responsive center-block" src="photos\iitbbslogo.png" height="130px" width="130px" style="margin-top: 40px;"></a>
+		</div>
+		<div class="col-md-8" id="sg">
+			<img src="photos/sg.png" class="img-responsive center-block">
+			<br>
+			<p class="h4" style="font-size: 3vw; padding-top: 10px;">IIT BHUBANESHWAR</p>
+		</div>
+	</div>
+	</div>
+	<hr>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-inverse" id="navbar">
+		<a class="navbar-brand" href="#">STUDENTS GYMKHANA</a>
+ 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="true" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="https://gymkhana.iitbbs.ac.in/">HOME</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        COUNCILS
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="https://gymkhana.iitbbs.ac.in/techcouncil.php">Technical Council</a>
+        <a class="dropdown-item" href="https://gymkhana.iitbbs.ac.in/culturalcouncil.php">Cultural Council</a>
+        <a class="dropdown-item" href="#">Sports Council</a>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        FESTS
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="https://www.wissenaire.org/">Wissenaire</a>
+        <a class="dropdown-item" href="http://2020.almafiesta.com/">Alma Fiesta</a>
+        <a class="dropdown-item" href="http://www.ashvamedha.org/">Sports Council</a>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        MEETS
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="https://gymkhana.iitbbs.ac.in/interiitSportsmeet.php">Inter IIT Sports Meet</a>
+        <a class="dropdown-item" href="https://gymkhana.iitbbs.ac.in/interiitTechmeet.php">Inter IIT Tech Meet</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://gymkhana.iitbbs.ac.in/gallery.php">GALLERY</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://gymkhana.iitbbs.ac.in/officeBearers.php">OFFICE</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://gymkhana.iitbbs.ac.in/Feedback.php">CONTACT</a>
+    </li>
+  </ul>
+</div>
+</nav>
+<br>
+<div class="row">
+<div class="container-lg">
+  <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-interval="3000">
+      <img src="photos/slide1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-interval="3000">
+      <img src="photos/slide2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-interval="3000">
+      <img src="photos/slide5.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</div>
+<br>
+<br>
+<div class="container">
+	<p class="text-muted" style="font-size: 35px;">SPORTS COUNCIL</p>
+	<br>
+	<div class="About">
+	<h4 class="text-muted">About Us</h4>
+	<br>
+	<div class="row">
+	<div class="col-md-8">
+		<p>
+		IIT Bhubaneswar offers wide scope for the students to excel in the domain of sports and games. The students play wide variety of sports and games such as Cricket, Football, Badminton, Basketball, Table tennis, Volleyball, Chess, Lawn Tennis, Athletics, and Aquatics etc.
+		<br>
+		<br>
+		Being a budding Institute, IIT Bhubaneswar has never compromised in providing the facilities required to enhance the students' talent. A well-equipped Gymnasium is present at individual hostels to ensure students' fitness and sound health. Cricket nets, Volleyball, basketball and indoor courts etc. are provided to the students.
+		</p>
+	</div>
+	<div class="card bg-light lg-4" id="GS" style="max-width: 18rem;">
+  <div class="card-header">GENERAL SECRETARY</div>
+  <div class="card-body" id="sec">
+    <h5 class="card-title">AKARSH BALACHANDRAN</h5>
+    <p class="card-text"><ion-icon name="logo-google"></ion-icon> 
+      <a href="mailto:gsecsports.sg@iitbbs.ac.in"><font color="#0C0301"> gsecsports.sg@iitbbs.ac.in</font></a>
+      <br>
+      <ion-icon name="call-outline"></ion-icon>
+      <a href="tel:07496815253"><font color="#0C0301">07496815253</font></a>
+  	</p>
+ 	</div>
+	</div>
+	</div>
+</div>
+</div>
+<br>
+<br>
+<div class="container">
+	<h4 class="text-muted">EVENTS</h4>
+	<div class="events">
+	<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Inter IIT</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">General Championship</a>
+  </li>
+	</ul>
+	</div>
+	<div class="tab-content" id="pills-tabContent">
+	  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">Inter IIT Sports Meet is the annual sports tournament of the Indian Institutes of Technology. It is organized in December, with the Aquatics events held separately in October. It is the longest running Inter-collegiate meet where all IITs participate having been held since 1961.The 54th Inter-IIT sports meet is going to be organized at IIT Bhubaneswar from 15th Dec to 21st Dec, 2019. This will be the first time in the history that the meet will be co-hosted by two IITs namely IIT Kharagpur and IIT Bhubaneswar. Eight sports will be organised by IIT Kharagpur while the rest four by IIT Bhubaneswar.</div>
+	  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">GC is played between branches.It provides platform for all sportsmen, experienced and amateurs, in the campus. With the pride of your hostel at stake, this time in the sporting arena.There is a full-time dedicated team of professional coaches for various sporting activities. Physical fitness and mental alertness is a mantra for success in life. So, each one of you do make it a point to take some time out from your busy schedules for sports and extra-curricular activities.Many events will be conducted in GC like Weightlifting(Boys only),Cricket(Boys only),Basketball(Girls and Boys),Football(Boys only),Chess(Girls and Boys),Table Tennis(Girls and Boys),Athletics(Girls and Boys),Badminton(Girls and Boys),Throwball(Girls only)Volleyball(Girls and Boys),Tennis(Girls and Boys),Squash(Girls and Boys)</div>
+	</div>
+</div>
+<br>
+<br>
+<div class="container-fluid">
+	<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" data-toggle="tab" href="#Athletics">Athletics</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#Badminton">Badminton</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#Basketball">Basketball</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#Cricket">Cricket</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#Football">Football</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#LawnTennis">Lawn Tennis</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#TableTennis">Table Tennis</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#Volleyball">Volleyball</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#Squash">Squash</a>
+  </li>
+</ul>
+</ul>
+<div class="tab-content">
+  <div class="tab-pane container active" id="Athletics">
+  	<div class="row">
+  	<div class="col-md-8">
+  		<br>
+  		<p>IIT Bhubaneswar offer extravagant facilities to enhance the student's Athletic spirit . Both Track and Field Athletics is encouraged from Students . The Institute Athletics Team actively participates in Inter IIT every year to enhance the institute pride among all IITs . The Students are regularly trained in various events like Sprint ,Hurdles ,LongJump ,HighJump ,TripleJump ,Shotput ,DiscusThrow ,HammerThrow and JavelinThrow.<br><br>
+The Athletes over the institute have access to participate in Athletic Sports Fests and Tournaments all across the country. Apart from Inter IIT, Various Inter Departmental and Inter Hall Tournaments are organised to raise the competitive spirit among students. The Gymkhana functions with the motto to maintain the student ,physically fit throughout the year.</p>
+  	</div>
+  	<div class="card bg-light lg-4" style="max-width: 18rem;">
+  <div class="card-header">SECRETARY, Athletics</div>
+  <div class="card-body" id="sec">
+  	<br>
+  	<br>
+    <h5 class="card-title">LALIT</h5>
+    <p class="card-text"><ion-icon name="logo-google"></ion-icon> 
+      <a href="mailto:secyathletics.sg@iitbbs.ac.in"><font color="#0C0301"> secyathletics.sg@iitbbs.ac.in</font></a>
+      <br>
+      <ion-icon name="call-outline"></ion-icon>
+      <a href="tel:+91 74968 15253"><font color="#0C0301"> +91 74968 15253</font></a>
+  	</p>
+ 	</div>
+	</div>
+  </div>
+  </div>
+  <div class="tab-pane container fade" id="Badminton">
+  	<div class="row">
+  		<div class="col-md-8">
+  			<br>
+  			<p>
+      		Badminton is a racquet sport played using racquets to hit a shuttlecock across a net. Although it may be played with larger teams, the most common forms of the game are "singles" (with one player per side) and "doubles" (with two players per side). Badminton is often played as a casual outdoor activity in a yard or on a beach; formal games are played on a rectangular indoor court. Points are scored by striking the shuttlecock with the racquet and landing it within the opposing side's half of the court.
+      <br>
+      <br>
+      Basketball is surely one of the most loved sports of the country and the IIT Bhubaneswar Basketball society was formed to encourage students in the institute to love this enthusiastic sport.
+    </p>
+  		</div>
+  		<div class="card bg-light lg-4" style="max-width: 18rem;">
+  <div class="card-header">SECRETARY, Badminton</div>
+  <div class="card-body" id="sec">
+  	<br>
+  	<br>
+    <h5 class="card-title">SOUGATH</h5>
+    <p class="card-text"><ion-icon name="logo-google"></ion-icon> 
+      <a href="mailto:secybadminton.sg@iitbbs.ac.in"><font color="#0C0301"> secybadminton.sg@iitbbs.ac.in</font></a>
+      <br>
+      <ion-icon name="call-outline"></ion-icon>
+      <a href="tel:+91 63706 56241"><font color="#0C0301">+91 63706 56241</font></a>
+  	</p>
+ 	</div>
+	</div>
+  	</div>
+  </div>
+  <div class="tab-pane container fade" id="Basketball">
+  	<div class="row">
+  		<div class="col-md-8">
+  			<br>
+  			<p>
+  				 Basketball is a team sport in which two teams, most commonly of five players each, opposing one another on a rectangular court, compete with the primary objective of shooting a basketball (approximately 9.4 inches (24 cm) in diameter) through the defender's hoop (a basket 18 inches (46 cm) in diameter mounted 10 feet (3.048 m) high to a backboard at each end of the court) while preventing the opposing team from shooting through their own hoop.
+		      <br>
+		      <br>
+		      Basketball is surely one of the most loved sports of the country and the IIT Bhubaneswar Basketball society was formed to encourage students in the institute to love this enthusiastic sport. With all year round events and activities in the form of INTER IIT, GENERAL CHAMPIONSHIP, HOSTEL DAY GAMES and a lot more, the basketball society of IIT Bhubaneswar keeps the sport lovers active with a combination of fun events and serious sport.
+		    </p>
+  		</div>
+  		<div class="card bg-light lg-4" style="max-width: 18rem;">
+  		 <div class="card-header">SECRETARY, Basketball</div>
+		  <div class="card-body" id="sec">
+		  	<br>
+		  	<br>
+		    <h5 class="card-title">VARRE ROHITH</h5>
+		    <p class="card-text"><ion-icon name="logo-google"></ion-icon> 
+		      <a href="mailto:secybasketball.sg@iitbbs.ac.in"><font color="#0C0301"> secybasketball.sg@iitbbs.ac.in</font></a>
+		      <br>
+		      <ion-icon name="call-outline"></ion-icon>
+		      <a href="tel:+91 93814 26875"><font color="#0C0301">+91 93814 26875</font></a>
+		  	</p>
+		 	</div>
+		 </div>
+		</div>
+		</div>
+		 <div class="tab-pane container fade" id="Cricket">
+  			<div class="row">
+  				<div class="col-md-8">
+  					<br>
+  					<p>
+  					Cricket was first played in England in the 16th century. By the end of the 18th century, it had developed to be the national sport of England.The first international cricket match was held in mid 19 th century. Cricket is the most popular sport in India. The Indian national cricket team won the 1983 Cricket World Cup, the 2007 ICC World Twenty20 and the 2011 Cricket World Cup. The Indian Premier League (IPL) is the most-watched Twenty20 cricket league in the world and is also known for its commercial success.
+				      <br>
+				      <br>
+				       Cricket is surely one of the most loved sports of the country and the IIT Bhubaneswar Cricket society was formed to encourage students in the institute to love this enthusiastic sport. With all year round events and activities in the form of INTER IIT, GENERAL CHAMPIONSHIP, HOSTEL DAY GAMES and a lot more, the cricket society of IIT Bhubaneswar keeps the sport lovers active with a combination of fun events and serious sport.
+				    </p>
+				  </div>
+				  <div class="card bg-light lg-4" style="max-width: 18rem;">
+  		 <div class="card-header">SECRETARY, Cricket</div>
+		  <div class="card-body" id="sec">
+		  	<br>
+		  	<br>
+		    <h5 class="card-title">HRUSHIKESH</h5>
+		    <p class="card-text"><ion-icon name="logo-google"></ion-icon> 
+		      <a href="mailto:secycricket.sg@iitbbs.ac.in"><font color="#0C0301"> secycricket.sg@iitbbs.ac.in</font></a>
+		      <br>
+		      <ion-icon name="call-outline"></ion-icon>
+		      <a href="tel:+91 94945 47639"><font color="#0C0301">+91 94945 47639</font></a>
+		  	</p>
+		 	</div>
+		 </div>
+		</div>
+		</div>
+		 <div class="tab-pane container fade" id="Football">
+  			<div class="row">
+  				<div class="col-md-8">
+  					<br>
+  					<p>
+  					Our campus has a football ground equipped with the necessary requirements. Every year we organise hostel day games in which a student bids for players and forms his team and then the fellow students compete for the winner's title. Along with this every year we also organise General Championship in which every Department build their team and compete with each other to see their department lift the Rolling trophy. 
+				      <br>
+				      Apart from this, from this year onwards we are taking an initiative to organise Mahanadi Premier League(MPL). This year we have vowed to practise regularly so that we can leave an impactat the Inter-IIT Sports meet this year at IIT Kanpur.Other than Inter-IIT we also participate in sports fests of colleges in and outside Bhubaneswar.
+				     </p>
+				 </div>
+		<div class="card bg-light lg-4" style="max-width: 18rem;">
+  		 <div class="card-header">SECRETARY, Football</div>
+		  <div class="card-body" id="sec">
+		  	<br>
+		  	<br>
+		    <h5 class="card-title">SAI TEJA VARMA</h5>
+		    <p class="card-text"><ion-icon name="logo-google"></ion-icon> 
+		      <a href="mailto:secyfootball.sg@iitbbs.ac.in"><font color="#0C0301"> secyfootball.sg@iitbbs.ac.in</font></a>
+		      <br>
+		      <ion-icon name="call-outline"></ion-icon>
+		      <a href="tel:+91 94493 84289"><font color="#0C0301">+91 94493 84289</font></a>
+		  	</p>
+		 	</div>
+		 </div>
+		</div>
+		</div>
+		 <div class="tab-pane container fade" id="LawnTennis">
+  			<div class="row">
+  				<div class="col-md-8">
+  					<br>
+  					<p>
+  						Tennis is a racket sport that can be played individually against a single opponent (singles) or between two teams of two players each (doubles). Each player uses a tennis racket that is strung with cord to strike a hollow rubber ball covered with felt over or around a net and into the opponent's court. The object of the game is to maneuver the ball in such a way that the opponent is not able to play a valid return.
+  					</p>
+  				</div>
+  				<div class="card bg-light lg-4" style="max-width: 18rem;">
+  		 <div class="card-header">GENERAL SECRETARY</div>
+		  <div class="card-body" id="sec">
+		  	<br>
+		  	<br>
+		    <h5 class="card-title">AKARSH BALACHANDRAN</h5>
+		    <p class="card-text"><ion-icon name="logo-google"></ion-icon> 
+		      <a href="mailto:gsecsports.sg@iitbbs.ac.in"><font color="#0C0301"> gsecsports.sg@iitbbs.ac.in</font></a>
+		      <br>
+		      <ion-icon name="call-outline"></ion-icon>
+		      <a href="tel:07496815253"><font color="#0C0301">07496815253</font></a>
+		  	</p>
+		 	</div>
+		 </div>
+		</div>
+		</div>
+		<div class="tab-pane container fade" id="TableTennis">
+  			<div class="row">
+  				<div class="col-md-8">
+  					<br>
+  					<p>
+  						Table tennis, also known as ping-pong and whiff-whaff, is a sport in which two or four players hit a lightweight ball back and forth across a table using small rackets. The game takes place on a hard table divided by a net. Except for the initial serve, the rules are generally as follows: players must allow a ball played toward them to bounce one time on their side of the table, and must return it so that it bounces on the opposite side at least once.
+  					</p>
+  				</div>
+  				<div class="card bg-light lg-4" style="max-width: 18rem;">
+	  		 <div class="card-header">SECRETARY, Table Tennis</div>
+			  <div class="card-body" id="sec">
+			  	<br>
+			  	<br>
+			    <h5 class="card-title">BHAVYA SRI</h5>
+			    <p class="card-text"><ion-icon name="logo-google"></ion-icon> 
+			      <a href="mailto:secytabletennis.sg@iitbbs.ac.in"><font color="#0C0301"> secytabletennis.sg@iitbbs.ac.in</font></a>
+			      <br>
+			      <ion-icon name="call-outline"></ion-icon>
+			      <a href="tel:+91 93814 46926"><font color="#0C0301">+91 93814 46926</font></a>
+			  	</p>
+			 	</div>
+			 </div>
+		</div>
+		</div>
+		<div class="tab-pane container fade" id="Volleyball">
+  			<div class="row">
+  				<div class="col-md-8">
+  					<br>
+  					<p>
+  						Volleyball is a team sport in which two teams of six players are separated by a net. Each team tries to score points by grounding a ball on the other team's court under organized rules.It has been a part of the official program of the Summer Olympic Games since Tokyo 1964.The complete set of rules are extensive,but play essentially proceeds as follows: a player on one of the teams begins a 'rally' by serving the ball (tossing or releasing it and then hitting it with a hand or arm), from behind the back boundary line of the court, over the net, and into the receiving team's court.The receiving team must not let the ball be grounded within their court.
+  					</p>
+  				</div>
+  				<div class="card bg-light lg-4" style="max-width: 18rem;">
+  		 <div class="card-header">SECRETARY, Volleyball</div>
+		  <div class="card-body" id="sec">
+		  	<br>
+		  	<br>
+		    <h5 class="card-title">YASHWANTH</h5>
+		    <p class="card-text"><ion-icon name="logo-google"></ion-icon> 
+		      <a href="mailto:secyvolleyball.sg@iitbbs.ac.in"><font color="#0C0301"> secyvolleyball.sg@iitbbs.ac.in</font></a>
+		      <br>
+		      <ion-icon name="call-outline"></ion-icon>
+		      <a href="tel:+91 93811 25546"><font color="#0C0301">+91 93811 25546</font></a>
+		  	</p>
+		 	</div>
+		 </div>
+		</div>
+		</div>
+		<div class="tab-pane container fade" id="Squash">
+  			<div class="row">
+  				<div class="col-md-8">
+  					<br>
+  					<p>
+  					Squash is a racket and ball sport played by two (singles) or four players (doubles squash) in a four-walled court with a small, hollow rubber ball. The players alternate in striking the ball with their racquets onto the playable surfaces of the four walls of the court. The objective of the game is to hit the ball in such a way that the opponent is not able to play a valid return. About 20 million people play squash regularly world-wide in over 185 countries.The governing body of Squash, the World Squash Federation (WSF), is recognized by the International Olympic Committee (IOC), but the sport is not part of the Olympic Games, despite a number of applications. Supporters continue to lobby for its incorporation in a future Olympic program.
+  				</p>
+  			</div>
+  				<div class="card bg-light lg-4" style="max-width: 18rem;">
+  		 <div class="card-header">GENERAL SECRETARY</div>
+		  <div class="card-body" id="sec">
+		  	<br>
+		  	<br>
+		    <h5 class="card-title">AKARSH BALACHANDRAN</h5>
+		    <p class="card-text"><ion-icon name="logo-google"></ion-icon> 
+		      <a href="mailto:gsecsports.sg@iitbbs.ac.in"><font color="#0C0301"> gsecsports.sg@iitbbs.ac.in</font></a>
+		      <br>
+		      <ion-icon name="call-outline"></ion-icon>
+		      <a href="tel:07496815253"><font color="#0C0301">07496815253</font></a>
+		  	</p>
+		 	</div>
+		 </div>
+		</div>
+		</div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="container-fluid" id="contact">
+            <div class="text-center">   
+                <h4>Designed and Developed by Web and Design Team, IIT Bhubaneswar</h4>
+                <h4>Follow us at:</h4>
+                <font size="5px;">
+                <p><a href="https://www.facebook.com/SG.IITBhubaneswar/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="https://www.instagram.com/sports_iit_bhubaneswar/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></p>
+            </font>
+            </div>
+        </div>
+</body>
+</html>
